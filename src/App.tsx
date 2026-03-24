@@ -14,11 +14,17 @@ import UsagePage from "./pages/UsagePage.tsx";
 import CronJobsPage from "./pages/CronJobsPage.tsx";
 import ApiKeysPage from "./pages/ApiKeysPage.tsx";
 import { SoulMdPage, MindMdPage, PersonalityMdPage } from "./pages/MdEditorPage.tsx";
-import {
-  AgentsPage, SkillsPage, NodesPage, ConfigPage,
-  CommunicationsPage, AppearancePage, AutomationPage,
-  InfrastructurePage, AiAgentsPage, DebugPage, LogsPage
-} from "./pages/PlaceholderPages.tsx";
+import AgentsPage from "./pages/AgentsPage.tsx";
+import SkillsPage from "./pages/SkillsPage.tsx";
+import NodesPage from "./pages/NodesPage.tsx";
+import ConfigPage from "./pages/ConfigPage.tsx";
+import CommunicationsPage from "./pages/CommunicationsPage.tsx";
+import AppearancePage from "./pages/AppearancePage.tsx";
+import AutomationPage from "./pages/AutomationPage.tsx";
+import InfrastructurePage from "./pages/InfrastructurePage.tsx";
+import AiAgentsPage from "./pages/AiAgentsPage.tsx";
+import DebugPage from "./pages/DebugPage.tsx";
+import LogsPage from "./pages/LogsPage.tsx";
 
 const queryClient = new QueryClient();
 
